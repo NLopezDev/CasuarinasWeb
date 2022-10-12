@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 40px 70px;
+}
+
+.logo{
+    width: 190px;
+}
+
+.navbar, .navbar-list{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.navbar{
+    gap: 150px;
+}
+
+.navbar-list{
+    gap: 40px;
+}
+
+.navbar-list li > a {
+    font-weight: 600;
+    color:#515A5A ;
+}
+
+/*PORTADA*/
+
+.hero{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 700px;
+        width: 98%;
+        padding-left: 140px;
+    }
+
+    .hero img{
+        height: 85%;
+        width: 65%;
+        padding-left: 10px;
+        border-radius: 2%;
+    }
+
+h1{
+    color: #515A5A;
+}
+
+/*SECTION ABOUT US*/
+.servicios{
+    font-size: 220%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 420px;
+    width: 100%;
+    padding-left: 140px;
+}
+
+.about img{
+    height: 60%;
+    width: 65%;
+    padding-left: 2px;
+    border-radius: 8%;
+}
+
+p{
+    font-size: 120%;
+    text-align: left;
+    margin: 3% 0% 3% 0%;
+}
+
+h3{
+    margin: 0% 10% 5% ;
+    text-align: center;
+    font-size: 120%;
+}
+
+/*SECTION EVENTOS*/
+.eventos{
+    font-size: 220%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.fest1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 380px;
+    width: 100%;
+    padding-left: 140px;
+}
+
+.fest1 img{
+    height: 60%;
+    width: 65%;
+    padding-left: 2px;
+    border-radius: 8%;
+}
+
+.fest2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 380px;
+    width: 100%;
+    padding-left: 140px;
+}
+
+.fest2 img{
+    height: 60%;
+    width: 65%;
+    padding-left: 2px;
+    border-radius: 8%;
+}
+
+p{
+    font-size: 120%;
+    text-align: left;
+    margin: 3% 0% 3% 0%;
+}
+
+h3{
+    margin: 0% 10% 5% ;
+    text-align: center;
+    font-size: 120%;
+}
+
+/*SECTION CONTACTO*/
+.contacto{
+    font-size: 220%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.redes {
+    text-align: center;
+    padding: 13% 6% 15% 6%; 
+}
+
+.icono {
+    margin: 4%;
+}
+
+.piePagina {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.piePagina .navbar-list{
+    font-size: 130%;
+}
+
+.piePagina p{
+    text-align: center;
+}
