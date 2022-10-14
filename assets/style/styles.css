@@ -152,6 +152,22 @@ h3{
     font-size: 120%;
 }
 
+/*REUNION*/
+.reuni{
+    font-size: 220%;
+    text-align: center;
+    margin-top: 15%;
+    padding-bottom: 10%;
+}
+
+.btn{
+    font-size: 180%;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 45%;
+    padding: 0.8rem;
+}
+
 /*SECTION CONTACTO*/
 .contacto{
     font-size: 220%;
